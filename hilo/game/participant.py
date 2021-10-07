@@ -17,7 +17,6 @@ class Participant:
         Args: Self
         '''
         cards = []
-
     def shuffle(self):
         '''
         When called will generate a a random list of numbers between 1-13 

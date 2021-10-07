@@ -14,7 +14,6 @@ class Director:
     def __init__(self):
 
          """The class constructor.
-        
         Args:
             self (Director): an instance of Director.
         """
