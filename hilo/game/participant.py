@@ -12,7 +12,7 @@ class Participant:
 
     def __init__(self):
         self.card_value = 1
-        self.card_new_value = 1
+        self.card_new_value = 0
         self.can_play_result = True
 
     def shuffle(self):
