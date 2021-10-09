@@ -75,6 +75,18 @@ class Participant:
         return points
 
     def can_play(self, score):
+        """ Ends game if participant's score is 0 or lower.
+
+        Parameters
+            self (Participant): The current Participant instance
+            score (int): The Participant's running total score
+
+        Returns can_play_result (boolean) (see director.do_outputs())
+            True: Game continues
+            False: Game ends
+        
+        """
+
         if score <= 0:
             self.can_play_result = False
 
